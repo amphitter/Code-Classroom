@@ -1,3 +1,9 @@
+# Ignore dependency directories
 backend/node_modules/
 frontend/node_modules/
+
+# Ignore Next.js build outputs
+frontend/.next/
+
+# Ignore local environment variables
 backend/.env
