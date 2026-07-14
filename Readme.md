@@ -1,6 +1,6 @@
-# CITN Classroom 🎓
+# CODE Classroom 🎓
 
-A comprehensive full-stack educational platform designed for modern classroom management, student engagement, and intelligent task evaluation. Built with cutting-edge technologies, CITN Classroom combines a powerful backend API with an intuitive frontend interface, supporting both web and desktop applications.
+A comprehensive full-stack educational platform designed for modern classroom management, student engagement, and intelligent task evaluation. Built with cutting-edge technologies, CODE Classroom combines a powerful backend API with an intuitive frontend interface, supporting both web and desktop applications.
 
 ---
 
@@ -24,7 +24,7 @@ A comprehensive full-stack educational platform designed for modern classroom ma
 
 ## 🎯 Overview
 
-CITN Classroom is a complete educational management system that streamlines classroom operations, task assignments, student evaluation, and real-time communication between instructors and students. The platform features:
+CODE Classroom (Designed for CITN do changes accourding to your preferences) (Developed by @amphitter under the Project - Build The Circle FOR STUDENTS BY STUDENTS) is a complete educational management system that streamlines classroom operations, task assignments, student evaluation, and real-time communication between instructors and students. The platform features:
 
 - **Real-time Communication**: WebSocket integration for instant notifications and updates
 - **AI-Powered Features**: Intelligent task evaluation and student assistance using OpenRouter API
@@ -244,9 +244,9 @@ PORT=5000
 NODE_ENV=development
 
 # Database Configuration
-MONGODB_URI=mongodb://localhost:27017/citn-classroom
+MONGODB_URI=mongodb://localhost:27017/yourdb
 # Or use MongoDB Atlas:
-# MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/citn-classroom
+# MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/yourdb
 
 # JWT Configuration
 JWT_SECRET=your_super_secret_jwt_key_here
@@ -590,7 +590,7 @@ Authorization: Bearer <your_jwt_token>
 |----------|-------------|---------|
 | `PORT` | Server port | `5000` |
 | `NODE_ENV` | Environment mode | `development` |
-| `MONGODB_URI` | MongoDB connection string | `mongodb://localhost:27017/citn-classroom` |
+| `MONGODB_URI` | MongoDB connection string | `mongodb://localhost:27017/yourdb` |
 | `JWT_SECRET` | Secret key for JWT signing | `your-secret-key` |
 | `JWT_EXPIRE` | JWT expiration time | `7d` |
 | `OPENROUTER_API_KEY` | API key for OpenRouter AI | `sk-xxxx` |
